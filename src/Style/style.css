@@ -1,0 +1,31 @@
+@font-face{
+    font-family:'Poppins';
+    src: url("../Assets/Fonts/Poppins-Regular.ttf");
+}
+
+body{
+    font-family: 'Poppins';
+    /* background-image: url('../Assets/Images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+}
+
+.header1{
+    display: flex;
+    flex-direction: row;
+}
+
+.header1 #judul{
+    flex: 1;
+    background-color: brown;
+}
+.header1 p{
+    flex: 1;
+}
+
+.header1 #judul:hover{
+    color: blue;
+    cursor: pointer;
+}
